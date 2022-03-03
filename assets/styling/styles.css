@@ -1,0 +1,48 @@
+#bars-container {
+  box-sizing: border-box;
+  border: 1px black solid;
+  display: inline-block;
+  padding: 60px 50px 50px;
+  width: 600px;
+}
+
+.custom-btn {
+  font-size: larger;
+  padding: 10px 25px;
+}
+
+#button-container {
+  padding-top: 20px;
+  text-align: right;
+  width: 600px;
+}
+
+.progress-bar {
+  background-color: #ebebeb;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.bar {
+  background-image: url(../images/60-lines.png);
+  background-size: 12px;
+  border: 1.5px #8b8282 solid;
+  border-radius: 50px;
+  box-shadow: -1px 1.5px #cfcaca;
+  box-sizing: border-box;
+  color: #606060;
+  font-family: sans-serif;
+  font-weight: 500;
+  height: 25px;
+  line-height: 22px;
+  padding-right: 10px;
+  font-size: 13px;
+  text-align: right;
+  width: 50%;
+}
+#bar-1 { background-color: #a9dc61; }
+#bar-2 { background-color: #ff897b; }
+#bar-3 { background-color: #fefefe; }
+#bar-4 { background-color: #83c5ed; }
+#bar-5 { background-color: #f1be46; }
